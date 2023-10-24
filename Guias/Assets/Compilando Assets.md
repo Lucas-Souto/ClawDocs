@@ -63,4 +63,4 @@ Para garantir que a compilação seja bem sucedida, os arquivos precisam ser Mon
 
 ## Map
 Os assets do tipo `Map` são baseados nas exportações JSON do Tiled. Para que isso funcione, você deve marcar as seguintes opções de importação: <br />
-![TiledPreferences](/Assets/TiledExport.png)
+![TiledPreferences](/Imagens/TiledExport.png)
