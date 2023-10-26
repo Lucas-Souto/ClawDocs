@@ -36,4 +36,4 @@ Altera um elemento do array.<br />
 ```csharp
 public virtual object Cast(System.Type type, System.Collections.Generic.Dictionary<Claw.Save.ISaveValue,object> references) { }
 ```
-Converte o [SaveArray](/API/Claw/Save/SaveArray#SaveArray) em um [Não encontrado!] .<br />
+Converte o [SaveArray](/API/Claw/Save/SaveArray.md#SaveArray) em um [Não encontrado!] .<br />

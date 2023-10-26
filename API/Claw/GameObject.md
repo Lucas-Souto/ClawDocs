@@ -165,7 +165,7 @@ Remove uma tag do objeto.<br />
 ```csharp
 public bool HasTag(string tag) { }
 ```
-Diz se este [GameObject](/API/Claw/GameObject#GameObject) possui uma tag específica.<br />
+Diz se este [GameObject](/API/Claw/GameObject.md#GameObject) possui uma tag específica.<br />
 ## Step
 ```csharp
 public virtual void Step() { }
@@ -193,27 +193,27 @@ Chamado quando o objeto é destruído.<br />
 ```csharp
 protected virtual void OnEnabledChanged(object sender, System.EventArgs args) { }
 ```
-Chamado quando o [GameObject.Enabled](/API/Claw/GameObject#Enabled) muda. Usado pelo evento [GameObject.EnabledChanged](/API/Claw/GameObject#EnabledChanged) .<br />
+Chamado quando o [GameObject.Enabled](/API/Claw/GameObject.md#Enabled) muda. Usado pelo evento [GameObject.EnabledChanged](/API/Claw/GameObject.md#EnabledChanged) .<br />
 **sender**: Este componente.<br />
 **args**: Argumentos para o evento.<br />
 ## OnUpdateOrderChanged
 ```csharp
 protected virtual void OnUpdateOrderChanged(object sender, System.EventArgs args) { }
 ```
-Chamado quando o [GameObject.UpdateOrder](/API/Claw/GameObject#UpdateOrder) muda. Usado pelo evento [GameObject.UpdateOrderChanged](/API/Claw/GameObject#UpdateOrderChanged) .<br />
+Chamado quando o [GameObject.UpdateOrder](/API/Claw/GameObject.md#UpdateOrder) muda. Usado pelo evento [GameObject.UpdateOrderChanged](/API/Claw/GameObject.md#UpdateOrderChanged) .<br />
 **sender**: Este componente.<br />
 **args**: Argumentos para o evento.<br />
 ## OnVisibleChanged
 ```csharp
 protected virtual void OnVisibleChanged(object sender, System.EventArgs args) { }
 ```
-Chamado quando o [GameObject.Visible](/API/Claw/GameObject#Visible) muda.<br />
+Chamado quando o [GameObject.Visible](/API/Claw/GameObject.md#Visible) muda.<br />
 **sender**: Este componente.<br />
 **args**: Argumentos para o evento.<br />
 ## OnDrawOrderChanged
 ```csharp
 protected virtual void OnDrawOrderChanged(object sender, System.EventArgs args) { }
 ```
-Chamado quando o [GameObject.DrawOrder](/API/Claw/GameObject#DrawOrder) muda.<br />
+Chamado quando o [GameObject.DrawOrder](/API/Claw/GameObject.md#DrawOrder) muda.<br />
 **sender**: Este componente.<br />
 **args**: Argumentos para o evento.<br />

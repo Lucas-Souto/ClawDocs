@@ -2,7 +2,7 @@
 ```csharp
 public class HUDContainer
 ```
-Representa uma lista de [HUDElement](/API/Claw/Graphics/Systems/HUDElement#HUDElement) s.<br />
+Representa uma lista de [HUDElement](/API/Claw/Graphics/Systems/HUDElement.md#HUDElement) s.<br />
 ## HUDContainer
 ```csharp
 public HUDContainer() { }

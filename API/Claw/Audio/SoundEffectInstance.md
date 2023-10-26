@@ -2,7 +2,7 @@
 ```csharp
 public sealed class SoundEffectInstance
 ```
-Representa uma instância de [SoundEffect](/API/Claw/Audio/SoundEffect#SoundEffect) .<br />
+Representa uma instância de [SoundEffect](/API/Claw/Audio/SoundEffect.md#SoundEffect) .<br />
 ## SoundEffectInstance
 ```csharp
 public SoundEffectInstance(Claw.Audio.SoundEffect audio, Claw.Audio.SoundEffectGroup group) { }

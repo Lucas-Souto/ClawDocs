@@ -2,7 +2,7 @@
 ```csharp
 public enum TextWrap
 ```
-Define os tipos de quebra de linha do [TextRenderer](/API/Claw/Graphics/Systems/TextRenderer#TextRenderer) .<br />
+Define os tipos de quebra de linha do [TextRenderer](/API/Claw/Graphics/Systems/TextRenderer.md#TextRenderer) .<br />
 |Nome|Valor|Descrição|
 |---|---|---|
 |NoWrap|0||

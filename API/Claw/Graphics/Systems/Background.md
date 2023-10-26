@@ -2,7 +2,7 @@
 ```csharp
 public sealed class Background
 ```
-Representa um background do [Parallax](/API/Claw/Graphics/Systems/Parallax#Parallax) .<br />
+Representa um background do [Parallax](/API/Claw/Graphics/Systems/Parallax.md#Parallax) .<br />
 ## Background
 ```csharp
 public Background() { }

@@ -2,7 +2,7 @@
 ```csharp
 public sealed class ParticleEmitterConfig
 ```
-Representa as configurações do [ParticleEmitter](/API/Claw/Particles/ParticleEmitter#ParticleEmitter) .<br />
+Representa as configurações do [ParticleEmitter](/API/Claw/Particles/ParticleEmitter.md#ParticleEmitter) .<br />
 ## ParticleEmitterConfig
 ```csharp
 public ParticleEmitterConfig() { }

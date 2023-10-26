@@ -2,7 +2,7 @@
 ```csharp
 public sealed class Renderer
 ```
-Representa o renderizador da [Window](/API/Claw/Window#Window) .<br />
+Representa o renderizador da [Window](/API/Claw/Window.md#Window) .<br />
 ## ClearColor
 ```csharp
 public Claw.Color ClearColor { get; set; } 
@@ -25,7 +25,7 @@ Retorna o alvo da renderização atual.<br />
 public void SetRenderTarget(Claw.Graphics.RenderTarget renderTarget) { }
 ```
 Altera o alvo da renderização.<br />
-**renderTarget**: Nulo para desenhar na [Window](/API/Claw/Window#Window) .<br />
+**renderTarget**: Nulo para desenhar na [Window](/API/Claw/Window.md#Window) .<br />
 ## DrawTexture
 ```csharp
 public void DrawTexture(Claw.Graphics.Texture texture, Claw.Rectangle source, Claw.Rectangle destination, Claw.Color color, Claw.Vector2 origin, float angle, Claw.Graphics.Flip flip) { }
@@ -36,4 +36,4 @@ Desenha uma imagem.<br />
 ```csharp
 public void Clear() { }
 ```
-Limpa a tela com o [Renderer.ClearColor](/API/Claw/Graphics/Renderer#ClearColor) .<br />
+Limpa a tela com o [Renderer.ClearColor](/API/Claw/Graphics/Renderer.md#ClearColor) .<br />

@@ -2,7 +2,7 @@
 ```csharp
 public enum TextOrigin
 ```
-Define os tipo de origem possíveis para o [TextRenderer](/API/Claw/Graphics/Systems/TextRenderer#TextRenderer) .<br />
+Define os tipo de origem possíveis para o [TextRenderer](/API/Claw/Graphics/Systems/TextRenderer.md#TextRenderer) .<br />
 |Nome|Valor|Descrição|
 |---|---|---|
 |TopLeft|0||

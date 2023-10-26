@@ -20,4 +20,4 @@ public long Length { get; }
 ```csharp
 public Claw.Audio.SoundEffectInstance CreateInstance(Claw.Audio.SoundEffectGroup group) { }
 ```
-Cria um [SoundEffectInstance](/API/Claw/Audio/SoundEffectInstance#SoundEffectInstance) deste áudio.<br />
+Cria um [SoundEffectInstance](/API/Claw/Audio/SoundEffectInstance.md#SoundEffectInstance) deste áudio.<br />

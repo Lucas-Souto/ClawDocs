@@ -2,13 +2,13 @@
 ```csharp
 public sealed class ComponentSortingFilteringCollection<T>
 ```
-Representa um [GameComponentCollection](/API/Claw/GameComponentCollection#GameComponentCollection) filtrado e ordenado.<br />
+Representa um [GameComponentCollection](/API/Claw/GameComponentCollection.md#GameComponentCollection) filtrado e ordenado.<br />
 **T**: Tipo que será filtrado.<br />
 ## ComponentSortingFilteringCollection\<T>
 ```csharp
 public ComponentSortingFilteringCollection<T>(Claw.GameComponentCollection componentCollection, System.Predicate<T> filter, System.Comparison<T> sort, System.Action<T,System.EventHandler<System.EventArgs>> filterChangedSubscriber, System.Action<T,System.EventHandler<System.EventArgs>> filterChangedUnsubscriber, System.Action<T,System.EventHandler<System.EventArgs>> sortChangedSubscriber, System.Action<T,System.EventHandler<System.EventArgs>> sortChangedUnsubscriber) { }
 ```
-Cria uma lista de componenetes que será sempre o produto filtrado e ordenado de uma [GameComponentCollection](/API/Claw/GameComponentCollection#GameComponentCollection) .<br />
+Cria uma lista de componenetes que será sempre o produto filtrado e ordenado de uma [GameComponentCollection](/API/Claw/GameComponentCollection.md#GameComponentCollection) .<br />
 **componentCollection**: A coleção original.<br />
 **filter**: A condição para a filtragem.<br />
 **sort**: O que servirá de parâmetro para a ordenação.<br />

@@ -2,7 +2,7 @@
 ```csharp
 public sealed class Layer
 ```
-Representa uma camada dentro do [Tilemap](/API/Claw/Tilemap#Tilemap) .<br />
+Representa uma camada dentro do [Tilemap](/API/Claw/Tilemap.md#Tilemap) .<br />
 ## Opacity
 ```csharp
 public float Opacity;
@@ -54,24 +54,24 @@ Retorna todos os tiles da layer.<br />
 ```csharp
 public void SetMultipleTiles(string[] map) { }
 ```
-Muda vários tiles de uma layer. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap#OnTileChange) !<br />
+Muda vários tiles de uma layer. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap.md#OnTileChange) !<br />
 **map**: Sequência de tiles (["0,1,2,0,0,1", "0,1,1,3,0,1"]). Sem espaço.<br />
 ## SetMultipleTiles
 ```csharp
 public void SetMultipleTiles(int[] mapData) { }
 ```
-Muda vários tiles de uma layer. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap#OnTileChange) !<br />
+Muda vários tiles de uma layer. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap.md#OnTileChange) !<br />
 ## SetChunkTiles
 ```csharp
 public void SetChunkTiles(Claw.Vector2 chunk, string[] chunkTiles) { }
 ```
-Muda vários tiles de um chunk imaginário. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap#OnTileChange) !<br />
+Muda vários tiles de um chunk imaginário. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap.md#OnTileChange) !<br />
 **chunkTiles**: Sequência de tiles (["0,1,2,0,0,1", "0,1,1,3,0,1"]). Sem espaço.<br />
 ## SetChunkTiles
 ```csharp
 public void SetChunkTiles(Claw.Rectangle chunk, int[] chunkData) { }
 ```
-Muda vários tiles de um chunk imaginário. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap#OnTileChange) !<br />
+Muda vários tiles de um chunk imaginário. Esse método não chama o [Tilemap.OnTileChange](/API/Claw/Tilemap.md#OnTileChange) !<br />
 ## Clear
 ```csharp
 public void Clear() { }

@@ -86,17 +86,17 @@ Checa se um polígono está colidindo com outro (formado apenas por linhas).<br 
 ```csharp
 public static Claw.CollisionResult Intersect(Claw.Vector2 point, Polygon polygon) { }
 ```
-Checa se um ponto está colidindo com um [Polygon](/API/Claw/Polygon#Polygon) .<br />
+Checa se um ponto está colidindo com um [Polygon](/API/Claw/Polygon.md#Polygon) .<br />
 ## Intersect
 ```csharp
 public static Claw.CollisionResult Intersect(Claw.Vector2 point, string tag, float distance, bool first) { }
 ```
-Checa se um ponto está colidindo com um [Polygon](/API/Claw/Polygon#Polygon) .<br />
+Checa se um ponto está colidindo com um [Polygon](/API/Claw/Polygon.md#Polygon) .<br />
 ## Intersect
 ```csharp
 public static Claw.CollisionResult Intersect<T>(Claw.Vector2 point, float distance, bool first) { }
 ```
-Checa se um ponto está colidindo com um [Polygon](/API/Claw/Polygon#Polygon) .<br />
+Checa se um ponto está colidindo com um [Polygon](/API/Claw/Polygon.md#Polygon) .<br />
 ## Intersect
 ```csharp
 public static Claw.CollisionResult Intersect(Polygon polygon, Polygon other) { }
@@ -116,17 +116,17 @@ Checa se dois polígonos estão colidindo.<br />
 ```csharp
 public static Claw.CollisionResult IntersectRay(Claw.Line ray, Polygon polygon, float cellSize) { }
 ```
-Checa se uma linha está colidindo com um [Polygon](/API/Claw/Polygon#Polygon) .<br />
+Checa se uma linha está colidindo com um [Polygon](/API/Claw/Polygon.md#Polygon) .<br />
 ## IntersectRay
 ```csharp
 public static Claw.CollisionResult IntersectRay(Claw.Line ray, string tag, float distance, bool first, float cellSize) { }
 ```
-Checa se uma linha está colidindo com um [Polygon](/API/Claw/Polygon#Polygon) .<br />
+Checa se uma linha está colidindo com um [Polygon](/API/Claw/Polygon.md#Polygon) .<br />
 ## IntersectRay
 ```csharp
 public static Claw.CollisionResult IntersectRay<T>(Claw.Line ray, float distance, bool first, float cellSize) { }
 ```
-Checa se uma linha está colidindo com um [Polygon](/API/Claw/Polygon#Polygon) .<br />
+Checa se uma linha está colidindo com um [Polygon](/API/Claw/Polygon.md#Polygon) .<br />
 ## IntersectList
 ```csharp
 public static Claw.CollisionResult[] IntersectList(Claw.Vector2 point, System.Func<Claw.GameObject,bool> predicate) { }
@@ -141,9 +141,9 @@ Retorna uma lista de colisões com o polígono especificado.<br />
 ```csharp
 public static Claw.CollisionResult IntersectWith(Claw.Vector2 point, System.Collections.Generic.IEnumerable<Claw.GameObject> gameObjects, float distance, bool first) { }
 ```
-Checa se um ponto está colidindo com um dos [Polygon](/API/Claw/Polygon#Polygon) s de uma lista.<br />
+Checa se um ponto está colidindo com um dos [Polygon](/API/Claw/Polygon.md#Polygon) s de uma lista.<br />
 ## IntersectWith
 ```csharp
 public static Claw.CollisionResult IntersectWith(Polygon polygon, System.Collections.Generic.IEnumerable<Claw.GameObject> gameObjects, float distance, bool first, bool invert) { }
 ```
-Checa se um [Polygon](/API/Claw/Polygon#Polygon) está colidindo com um dos [Polygon](/API/Claw/Polygon#Polygon) s de uma lista.<br />
+Checa se um [Polygon](/API/Claw/Polygon.md#Polygon) está colidindo com um dos [Polygon](/API/Claw/Polygon.md#Polygon) s de uma lista.<br />

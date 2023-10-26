@@ -2,7 +2,7 @@
 ```csharp
 public class GameComponent
 ```
-Classe pronta de um [IGameComponent](/API/Claw/IGameComponent#IGameComponent) do tipo [IUpdateable](/API/Claw/IUpdateable#IUpdateable) .<br />
+Classe pronta de um [IGameComponent](/API/Claw/IGameComponent.md#IGameComponent) do tipo [IUpdateable](/API/Claw/IUpdateable.md#IUpdateable) .<br />
 ## GameComponent
 ```csharp
 public GameComponent() { }

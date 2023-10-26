@@ -2,7 +2,7 @@
 ```csharp
 public sealed class Frame
 ```
-Dados de um frame para o [Animator](/API/Claw/Animator#Animator) .<br />
+Dados de um frame para o [Animator](/API/Claw/Animator.md#Animator) .<br />
 ## Frame
 ```csharp
 public Frame(Claw.Graphics.Sprite sprite, Claw.Rectangle? area) { }

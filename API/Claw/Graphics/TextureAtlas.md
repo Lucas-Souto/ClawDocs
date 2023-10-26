@@ -11,18 +11,18 @@ public static System.Collections.ObjectModel.ReadOnlyDictionary<string,Claw.Grap
 ```csharp
 public static Claw.Graphics.Texture CurrentPage { get; internal set; } 
 ```
-Qual a última [Sprite.Texture](/API/Claw/Graphics/Sprite#Texture) usada pelo [Draw](/API/Claw/Graphics/Draw#Draw) .<br />
+Qual a última [Sprite.Texture](/API/Claw/Graphics/Sprite.md#Texture) usada pelo [Draw](/API/Claw/Graphics/Draw.md#Draw) .<br />
 ## AddSprite
 ```csharp
 public static void AddSprite(Claw.Graphics.Sprite sprite) { }
 ```
-Adiciona uma sprite ao [TextureAtlas.Sprites](/API/Claw/Graphics/TextureAtlas#Sprites) .<br />
+Adiciona uma sprite ao [TextureAtlas.Sprites](/API/Claw/Graphics/TextureAtlas.md#Sprites) .<br />
 Aviso: O primeiro pixel da sua textura deve ser um pixel branco.<br />
 <br />
 ## AddSprites
 ```csharp
 public static void AddSprites(Claw.Graphics.Sprite[] sprites) { }
 ```
-Adiciona sprites ao [TextureAtlas.Sprites](/API/Claw/Graphics/TextureAtlas#Sprites) .<br />
+Adiciona sprites ao [TextureAtlas.Sprites](/API/Claw/Graphics/TextureAtlas.md#Sprites) .<br />
 Aviso: O primeiro pixel da sua textura deve ser um pixel branco.<br />
 <br />

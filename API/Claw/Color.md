@@ -123,12 +123,12 @@ ABGR - 32 bits.<br />
 public virtual string ToString() { }
 ```
 Retorna uma string representando esta cor no formato:
-            {R:[ [Color.R](/API/Claw/Color#R) ] G:[ [Color.G](/API/Claw/Color#G) ] B:[ [Color.B](/API/Claw/Color#B) ] A:[ [Color.A](/API/Claw/Color#A) ]}<br />
+            {R:[ [Color.R](/API/Claw/Color.md#R) ] G:[ [Color.G](/API/Claw/Color.md#G) ] B:[ [Color.B](/API/Claw/Color.md#B) ] A:[ [Color.A](/API/Claw/Color.md#A) ]}<br />
 ## FromHSV
 ```csharp
 public static Color FromHSV(float hue, float saturation, float value, float alpha) { }
 ```
-Cria uma [Color](/API/Claw/Color#Color) com HSV.<br />
+Cria uma [Color](/API/Claw/Color.md#Color) com HSV.<br />
 **hue**: 0 - 359.<br />
 **saturation**: 0 - 1.<br />
 **value**: 0 - 1.<br />
@@ -157,7 +157,7 @@ Realiza a interpolação linear entre duas cores, usando delta time.<br />
 **a**: Valor atual.<br />
 **b**: Valor alvo.<br />
 **amount**: Valor de ponderação.<br />
-**scaled**: Se o delta time será [Time.DeltaTime](/API/Claw/Time#DeltaTime) (true) ou [Time.UnscaledDeltaTime](/API/Claw/Time#UnscaledDeltaTime) (false).<br />
+**scaled**: Se o delta time será [Time.DeltaTime](/API/Claw/Time.md#DeltaTime) (true) ou [Time.UnscaledDeltaTime](/API/Claw/Time.md#UnscaledDeltaTime) (false).<br />
 ## implicit operator
 ```csharp
 public static uint implicit operator(Color value) { }

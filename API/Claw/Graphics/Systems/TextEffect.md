@@ -2,7 +2,7 @@
 ```csharp
 public enum TextEffect
 ```
-Define os tipos de efeito do [TextRenderer](/API/Claw/Graphics/Systems/TextRenderer#TextRenderer) .<br />
+Define os tipos de efeito do [TextRenderer](/API/Claw/Graphics/Systems/TextRenderer.md#TextRenderer) .<br />
 |Nome|Valor|Descrição|
 |---|---|---|
 |None|0||

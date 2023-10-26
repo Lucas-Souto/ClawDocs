@@ -79,33 +79,33 @@ public virtual Claw.Rectangle Bounds { get; }
 ```csharp
 public Claw.Vector2 GetSpeed() { }
 ```
-Retorna a velocidade do [PlatBody](/API/Claw/Physics/PlatBody#PlatBody) .<br />
+Retorna a velocidade do [PlatBody](/API/Claw/Physics/PlatBody.md#PlatBody) .<br />
 ## Impulse
 ```csharp
 public void Impulse(Claw.Vector2 impulse, bool resetXSpeed, bool resetYSpeed) { }
 ```
-Acrescenta um valor na velocidade do [PlatBody](/API/Claw/Physics/PlatBody#PlatBody) .<br />
+Acrescenta um valor na velocidade do [PlatBody](/API/Claw/Physics/PlatBody.md#PlatBody) .<br />
 ## Stop
 ```csharp
 public void Stop() { }
 ```
-Zera a velocidade do [PlatBody](/API/Claw/Physics/PlatBody#PlatBody) .<br />
+Zera a velocidade do [PlatBody](/API/Claw/Physics/PlatBody.md#PlatBody) .<br />
 ## Stop
 ```csharp
 public void Stop(bool horizontal, bool vertical) { }
 ```
-Zera a velocidade do [PlatBody](/API/Claw/Physics/PlatBody#PlatBody) .<br />
+Zera a velocidade do [PlatBody](/API/Claw/Physics/PlatBody.md#PlatBody) .<br />
 ## Jump
 ```csharp
 public void Jump(float boost) { }
 ```
-Faz com que o [PlatBody](/API/Claw/Physics/PlatBody#PlatBody) pule.<br />
+Faz com que o [PlatBody](/API/Claw/Physics/PlatBody.md#PlatBody) pule.<br />
 **boost**: Multiplica a força do pulo<br />
 ## Walk
 ```csharp
 public void Walk(float direction) { }
 ```
-Faz com que o [PlatBody](/API/Claw/Physics/PlatBody#PlatBody) ande.<br />
+Faz com que o [PlatBody](/API/Claw/Physics/PlatBody.md#PlatBody) ande.<br />
 ## Step
 ```csharp
 public virtual void Step() { }

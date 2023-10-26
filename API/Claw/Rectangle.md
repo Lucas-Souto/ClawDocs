@@ -79,7 +79,7 @@ Cria um novo retângulo de uma interpolação linear com os retângulos especifi
 **a**: Valor atual.<br />
 **b**: Valor alvo.<br />
 **amount**: Valor de ponderação.<br />
-**scaled**: Se o delta time será [Time.DeltaTime](/API/Claw/Time#DeltaTime) (true) ou [Time.UnscaledDeltaTime](/API/Claw/Time#UnscaledDeltaTime) (false).<br />
+**scaled**: Se o delta time será [Time.DeltaTime](/API/Claw/Time.md#DeltaTime) (true) ou [Time.UnscaledDeltaTime](/API/Claw/Time.md#UnscaledDeltaTime) (false).<br />
 ## Clamp
 ```csharp
 public static Rectangle Clamp(Rectangle value, Rectangle min, Rectangle max) { }
@@ -92,7 +92,7 @@ Limita o valor especificado.<br />
 ```csharp
 public static Rectangle Positive(Rectangle rectangle) { }
 ```
-Garante que um [Rectangle](/API/Claw/Rectangle#Rectangle) não tenha dimensões negativas, de forma que continue ocupando o mesmo espaço.<br />
+Garante que um [Rectangle](/API/Claw/Rectangle.md#Rectangle) não tenha dimensões negativas, de forma que continue ocupando o mesmo espaço.<br />
 ## Contains
 ```csharp
 public bool Contains(Claw.Vector2 point) { }
@@ -123,12 +123,12 @@ Muda a posição deste retângulo.<br />
 public virtual string ToString() { }
 ```
 Retorna uma string representando este retângulo no formato:
-            {Location:[ [Rectangle.Location](/API/Claw/Rectangle#Location) ] Size:[ [Rectangle.Size](/API/Claw/Rectangle#Size) ]}<br />
+            {Location:[ [Rectangle.Location](/API/Claw/Rectangle.md#Location) ] Size:[ [Rectangle.Size](/API/Claw/Rectangle.md#Size) ]}<br />
 ## Union
 ```csharp
 public static Rectangle Union(Rectangle value1, Rectangle value2) { }
 ```
-Cria um novo [Rectangle](/API/Claw/Rectangle#Rectangle) que contem completamente outros dois retângulos.<br />
+Cria um novo [Rectangle](/API/Claw/Rectangle.md#Rectangle) que contem completamente outros dois retângulos.<br />
 **Retorna: **A união de dois retângulos.<br />
 ## Equals
 ```csharp

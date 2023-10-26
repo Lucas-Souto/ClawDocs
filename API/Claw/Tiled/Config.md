@@ -2,7 +2,7 @@
 ```csharp
 public sealed class Config
 ```
-Configurações para o [Tiled](/API/Claw/Tiled/Tiled#Tiled) .<br />
+Configurações para o [Tiled](/API/Claw/Tiled/Tiled.md#Tiled) .<br />
 ## Config
 ```csharp
 public Config(string prefixNamespace) { }

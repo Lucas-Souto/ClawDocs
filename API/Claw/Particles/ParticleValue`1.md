@@ -35,16 +35,16 @@ Define uma função que para executar o gradiente.<br />
 T1: Valor atual.<br />
 T2: Valor destino.<br />
 T3: Valor para o lerp.<br />
-T4: Valor que diz se o [ParticleEmitterConfig.UseScaledTime](/API/Claw/Particles/ParticleEmitterConfig#UseScaledTime) é verdadeiro.<br />
+T4: Valor que diz se o [ParticleEmitterConfig.UseScaledTime](/API/Claw/Particles/ParticleEmitterConfig.md#UseScaledTime) é verdadeiro.<br />
 TResult: Resultado do cálculo.<br />
 <br />
 ## GetValue
 ```csharp
 public T? GetValue(Claw.Particles.ParticleEmitter emitter, bool updateGradient) { }
 ```
-Retorna um valor fixo, se ! [ParticleValue<T>.IsGradient](/API/Claw/Particles/ParticleValue`1#IsGradient) e a [ParticleValue<T>.ValueList](/API/Claw/Particles/ParticleValue`1#ValueList) não ter elementos.<br />
-Retorna um valor aleatório, se ! [ParticleValue<T>.IsGradient](/API/Claw/Particles/ParticleValue`1#IsGradient) e a [ParticleValue<T>.ValueList](/API/Claw/Particles/ParticleValue`1#ValueList) ter elementos.<br />
-Retorna o estágio do gradiente, se [ParticleValue<T>.IsGradient](/API/Claw/Particles/ParticleValue`1#IsGradient) e a [ParticleValue<T>.ValueList](/API/Claw/Particles/ParticleValue`1#ValueList) ter elementos.<br />
+Retorna um valor fixo, se ! [ParticleValue<T>.IsGradient](/API/Claw/Particles/ParticleValue`1.md#IsGradient) e a [ParticleValue<T>.ValueList](/API/Claw/Particles/ParticleValue`1.md#ValueList) não ter elementos.<br />
+Retorna um valor aleatório, se ! [ParticleValue<T>.IsGradient](/API/Claw/Particles/ParticleValue`1.md#IsGradient) e a [ParticleValue<T>.ValueList](/API/Claw/Particles/ParticleValue`1.md#ValueList) ter elementos.<br />
+Retorna o estágio do gradiente, se [ParticleValue<T>.IsGradient](/API/Claw/Particles/ParticleValue`1.md#IsGradient) e a [ParticleValue<T>.ValueList](/API/Claw/Particles/ParticleValue`1.md#ValueList) ter elementos.<br />
 <br />
 **updateGradient**: Define se o gradiente será calculado ou não.<br />
 ## ResetValue

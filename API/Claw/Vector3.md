@@ -41,7 +41,7 @@ X: 1; Y: 1; Z: 1.<br />
 ```csharp
 public void Normalize() { }
 ```
-Transforma este [Vector3](/API/Claw/Vector3#Vector3) em um vetor de unidade com a mesma direção.<br />
+Transforma este [Vector3](/API/Claw/Vector3.md#Vector3) em um vetor de unidade com a mesma direção.<br />
 ## Clamp
 ```csharp
 public static Vector3 Clamp(Vector3 value, Vector3 min, Vector3 max) { }
@@ -56,7 +56,7 @@ Retorna a distância entre dois vetores.<br />
 ```csharp
 public static Claw.Vector2 Normalize(Claw.Vector2 value) { }
 ```
-Transforma um [Vector3](/API/Claw/Vector3#Vector3) em um vetor de unidade com a mesma direção.<br />
+Transforma um [Vector3](/API/Claw/Vector3.md#Vector3) em um vetor de unidade com a mesma direção.<br />
 ## Lerp
 ```csharp
 public static Vector3 Lerp(Vector3 a, Vector3 b, float amount) { }
@@ -73,7 +73,7 @@ Realiza a interpolação linear entre dois vetores, usando delta time.<br />
 **a**: Valor atual.<br />
 **b**: Valor alvo.<br />
 **amount**: Valor de ponderação.<br />
-**scaled**: Se o delta time será [Time.DeltaTime](/API/Claw/Time#DeltaTime) (true) ou [Time.UnscaledDeltaTime](/API/Claw/Time#UnscaledDeltaTime) (false).<br />
+**scaled**: Se o delta time será [Time.DeltaTime](/API/Claw/Time.md#DeltaTime) (true) ou [Time.UnscaledDeltaTime](/API/Claw/Time.md#UnscaledDeltaTime) (false).<br />
 ## Approach
 ```csharp
 public static Vector3 Approach(Vector3 value, Vector3 target, float shift) { }
@@ -89,7 +89,7 @@ Incrementa um valor por um determinado deslocamento, mas nunca além do valor fi
 public virtual string ToString() { }
 ```
 Retorna uma string representando este vetor 3D no formato:
-            {X:[ [Vector3.X](/API/Claw/Vector3#X) ] Y:[ [Vector3.Y](/API/Claw/Vector3#Y) ] Z:[ [Vector3.Z](/API/Claw/Vector3#Z) ]}<br />
+            {X:[ [Vector3.X](/API/Claw/Vector3.md#X) ] Y:[ [Vector3.Y](/API/Claw/Vector3.md#Y) ] Z:[ [Vector3.Z](/API/Claw/Vector3.md#Z) ]}<br />
 ## operator +
 ```csharp
 public static Vector3 operator +(Vector3 a, Vector3 b) { }

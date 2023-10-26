@@ -2,7 +2,7 @@
 ```csharp
 public sealed class Animation
 ```
-Dados de uma animação para o [Animator](/API/Claw/Animator#Animator) .<br />
+Dados de uma animação para o [Animator](/API/Claw/Animator.md#Animator) .<br />
 ## Animation
 ```csharp
 public Animation(int framesPerSecond, string name, Claw.Vector2 origin, Claw.Frame[] frames) { }
