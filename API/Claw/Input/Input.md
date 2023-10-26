@@ -121,13 +121,13 @@ Retorna a posição (de -1 a 1) do analógico direito do controle.<br />
 public static float LeftTrigger(int index) { }
 ```
 Retorna o eixo do gatilho esquerdo.<br />
-**Retorna: **De 0 a 1.<br />
+**Retorna**: De 0 a 1.<br />
 ## RightTrigger
 ```csharp
 public static float RightTrigger(int index) { }
 ```
 Retorna o eixo do gatilho direito.<br />
-**Retorna: **De 0 a 1.<br />
+**Retorna**: De 0 a 1.<br />
 ## SetVibration
 ```csharp
 public static void SetVibration(int index, uint duration, float leftMotor, float rightMotor) { }

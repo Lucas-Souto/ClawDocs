@@ -91,7 +91,7 @@ public static Claw.Vector2 Get2DIndex(int index, int width) { }
 ```
 Transforma um index 1D em um index 2D.<br />
 **index**: <br />
-**Retorna: **<br />
+**Retorna**: <br />
 ## GetBezierPath
 ```csharp
 public static Claw.Vector2[] GetBezierPath(int segments, Claw.Vector2 point0, Claw.Vector2 point1, Claw.Vector2 point2, Claw.Vector2 point3) { }

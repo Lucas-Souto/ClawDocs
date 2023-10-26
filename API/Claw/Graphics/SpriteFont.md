@@ -5,7 +5,7 @@ public sealed class SpriteFont
 Representa uma fonte, com base numa [Sprite](/API/Claw/Graphics/Sprite.md#Sprite) .<br />
 ## SpriteFont
 ```csharp
-public SpriteFont(Claw.Graphics.Sprite sprite, Claw.Vector2 spacing, System.Collections.Generic.Dictionary<char,Claw.Graphics.SpriteFont+Glyph> glyphs) { }
+public SpriteFont(Claw.Graphics.Sprite sprite, Claw.Vector2 spacing, System.Collections.Generic.Dictionary<char,Glyph> glyphs) { }
 ```
 ## SpriteFont
 ```csharp
@@ -25,7 +25,7 @@ public Claw.Vector2 Spacing;
 ```
 ## Glyphs
 ```csharp
-public readonly System.Collections.Generic.Dictionary<char,Claw.Graphics.SpriteFont+Glyph> Glyphs;
+public readonly System.Collections.Generic.Dictionary<char,Glyph> Glyphs;
 ```
 ## AddKerning
 ```csharp
@@ -41,7 +41,7 @@ Retorna as dimensões que a [Não encontrado!] teria com este [SpriteFont](/API/
 ```csharp
 public Claw.Vector2 MeasureChar(char character) { }
 ```
-Retorna as dimensões que o tamanho da área de um [Claw.Graphics.SpriteFont+Glyph](/API/Claw/Graphics/SpriteFont.md#Claw.Graphics.SpriteFont+Glyph) .<br />
+Retorna as dimensões que o tamanho da área de um [Glyph](/API/Claw/Graphics/SpriteFont.md#Glyph) .<br />
 ## ToString
 ```csharp
 public virtual string ToString() { }

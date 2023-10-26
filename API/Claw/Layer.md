@@ -87,7 +87,7 @@ public bool CheckCollision(Claw.Vector2 position, int[] filterTiles, out int til
 ```
 ## Raycast
 ```csharp
-public bool Raycast(Claw.Line ray, float maxDistance, out int tile, out Claw.Vector2? hitPoint, out Claw.Vector2 tileIndex) { }
+public bool Raycast(Claw.Line ray, float maxDistance, out int tile, out Vector2? hitPoint, out Claw.Vector2 tileIndex) { }
 ```
 ## Pathfind
 ```csharp
@@ -95,7 +95,7 @@ public Claw.Vector2[] Pathfind(Claw.Vector2 start, Claw.Vector2 end, bool diagon
 ```
 Implementa o algoritmo A* para encontrar um caminho entre duas posições.<br />
 **diagonalMovement**: Define se o pathfind terá movimentos na diagonal.<br />
-**Retorna: **Lista de indexes do mapa.<br />
+**Retorna**: Lista de indexes do mapa.<br />
 ## Render
 ```csharp
 public virtual void Render() { }

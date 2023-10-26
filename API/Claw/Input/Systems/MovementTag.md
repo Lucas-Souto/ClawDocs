@@ -5,7 +5,7 @@ public sealed class MovementTag
 Representa um input de movimento dentro do [TaggedInput](/API/Claw/Input/Systems/TaggedInput.md#TaggedInput) .<br />
 ## MovementTag
 ```csharp
-public MovementTag(bool leftThumb, bool rightThumb, System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys> keys, System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys> altKeys, System.ValueTuple<Claw.Input.Buttons,Claw.Input.Buttons,Claw.Input.Buttons,Claw.Input.Buttons>? buttons) { }
+public MovementTag(bool leftThumb, bool rightThumb, System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys> keys, System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys> altKeys, System.ValueTuple<Buttons,Buttons,Buttons,Buttons>? buttons) { }
 ```
 Cria uma instância de uma tag de movimento.<br />
 **keys**: Up, Down, Right, Left.<br />
@@ -13,7 +13,7 @@ Cria uma instância de uma tag de movimento.<br />
 **buttons**: Up, Down, Right, Left.<br />
 ## MovementTag
 ```csharp
-public MovementTag(bool leftThumb, bool rightThumb, System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys> keys, System.ValueTuple<Claw.Input.Buttons,Claw.Input.Buttons,Claw.Input.Buttons,Claw.Input.Buttons>? buttons) { }
+public MovementTag(bool leftThumb, bool rightThumb, System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys> keys, System.ValueTuple<Buttons,Buttons,Buttons,Buttons>? buttons) { }
 ```
 Cria uma instância de uma tag de movimento.<br />
 **keys**: Up, Down, Right, Left.<br />
@@ -40,7 +40,7 @@ public System.ValueTuple<Claw.Input.Keys,Claw.Input.Keys,Claw.Input.Keys,Claw.In
 ```
 ## Buttons
 ```csharp
-public System.ValueTuple<Claw.Input.Buttons,Claw.Input.Buttons,Claw.Input.Buttons,Claw.Input.Buttons>? Buttons;
+public System.ValueTuple<Buttons,Buttons,Buttons,Buttons>? Buttons;
 ```
 ## Update
 ```csharp

@@ -9,7 +9,7 @@ public TextConfig() { }
 ```
 ## TextConfig
 ```csharp
-public TextConfig(float? rotation, Claw.Color? color, Claw.Vector2? scale, Claw.Graphics.Systems.TextOrigin? origin, Claw.Graphics.Systems.TextEffect? effect, Claw.Graphics.SpriteFont font, Claw.Graphics.Flip? flip) { }
+public TextConfig(float? rotation, Color? color, Vector2? scale, TextOrigin? origin, TextEffect? effect, Claw.Graphics.SpriteFont font, Flip? flip) { }
 ```
 ## Rotation
 ```csharp
@@ -17,19 +17,19 @@ public float? Rotation;
 ```
 ## Color
 ```csharp
-public Claw.Color? Color;
+public Color? Color;
 ```
 ## Scale
 ```csharp
-public Claw.Vector2? Scale;
+public Vector2? Scale;
 ```
 ## Origin
 ```csharp
-public Claw.Graphics.Systems.TextOrigin? Origin;
+public TextOrigin? Origin;
 ```
 ## Effect
 ```csharp
-public Claw.Graphics.Systems.TextEffect? Effect;
+public TextEffect? Effect;
 ```
 ## Font
 ```csharp
@@ -37,7 +37,7 @@ public Claw.Graphics.SpriteFont Font;
 ```
 ## Flip
 ```csharp
-public Claw.Graphics.Flip? Flip;
+public Flip? Flip;
 ```
 ## Copy
 ```csharp

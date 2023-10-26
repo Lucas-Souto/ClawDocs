@@ -1,6 +1,6 @@
 # HUDImage
 ```csharp
-public sealed class HUDImage : Claw.Graphics.Systems.HUDElement
+public sealed class HUDImage : HUDElement
 ```
 Representa uma imagem na HUD do jogo.<br />
 ## HUDImage
@@ -17,7 +17,7 @@ public virtual Claw.Graphics.Sprite Sprite { get; set; }
 ```
 ## SpriteArea
 ```csharp
-public virtual Claw.Rectangle? SpriteArea { get; set; } 
+public virtual Rectangle? SpriteArea { get; set; } 
 ```
 ## Origin
 ```csharp

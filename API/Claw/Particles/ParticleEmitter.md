@@ -1,6 +1,6 @@
 # ParticleEmitter
 ```csharp
-public sealed class ParticleEmitter : Claw.DrawableGameComponent
+public sealed class ParticleEmitter : DrawableGameComponent
 ```
 Classe de emissão e manuseio de partículas.<br />
 ## ParticleEmitter

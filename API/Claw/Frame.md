@@ -5,7 +5,7 @@ public sealed class Frame
 Dados de um frame para o [Animator](/API/Claw/Animator.md#Animator) .<br />
 ## Frame
 ```csharp
-public Frame(Claw.Graphics.Sprite sprite, Claw.Rectangle? area) { }
+public Frame(Claw.Graphics.Sprite sprite, Rectangle? area) { }
 ```
 ## Sprite
 ```csharp
@@ -13,5 +13,5 @@ public Claw.Graphics.Sprite Sprite;
 ```
 ## Area
 ```csharp
-public Claw.Rectangle? Area;
+public Rectangle? Area;
 ```

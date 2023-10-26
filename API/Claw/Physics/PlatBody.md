@@ -1,6 +1,6 @@
 # PlatBody
 ```csharp
-public class PlatBody : Claw.GameObject
+public class PlatBody : GameObject
 ```
 Uma classe com física básica de plataforma.<br />
 ## PlatBody
@@ -120,13 +120,13 @@ protected virtual void GetInput() { }
 protected virtual bool OnHorizontalCollision(int platType, Claw.Vector2 collisionPoint) { }
 ```
 É chamado sempre que ocorre uma colisão na horizontal.<br />
-**Retorna: **True para zerar a velocidade e corrigir a posição.<br />
+**Retorna**: True para zerar a velocidade e corrigir a posição.<br />
 ## OnVerticalCollision
 ```csharp
 protected virtual bool OnVerticalCollision(int platType, Claw.Vector2 collisionPoint) { }
 ```
 É chamado sempre que ocorre uma colisão na vertical.<br />
-**Retorna: **True para zerar a velocidade, corrigir a posição e fazer a checagem de Grounded.<br />
+**Retorna**: True para zerar a velocidade, corrigir a posição e fazer a checagem de Grounded.<br />
 ## CustomHorizontalHandler
 ```csharp
 protected virtual void CustomHorizontalHandler() { }

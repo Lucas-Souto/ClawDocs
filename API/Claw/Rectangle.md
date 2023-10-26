@@ -129,7 +129,7 @@ Retorna uma string representando este retângulo no formato:
 public static Rectangle Union(Rectangle value1, Rectangle value2) { }
 ```
 Cria um novo [Rectangle](/API/Claw/Rectangle.md#Rectangle) que contem completamente outros dois retângulos.<br />
-**Retorna: **A união de dois retângulos.<br />
+**Retorna**: A união de dois retângulos.<br />
 ## Equals
 ```csharp
 public virtual bool Equals(object obj) { }

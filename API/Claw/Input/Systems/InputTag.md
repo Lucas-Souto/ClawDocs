@@ -5,13 +5,13 @@ public sealed class InputTag
 Representa um input dentro do [TaggedInput](/API/Claw/Input/Systems/TaggedInput.md#TaggedInput) .<br />
 ## InputTag
 ```csharp
-public InputTag(Claw.Input.Keys key, Claw.Input.Keys altKey, Claw.Input.Buttons? button, Claw.Input.Buttons? altButton, Claw.Input.MouseButtons? mouse, float bufferTime) { }
+public InputTag(Claw.Input.Keys key, Claw.Input.Keys altKey, Buttons? button, Buttons? altButton, MouseButtons? mouse, float bufferTime) { }
 ```
 Cria uma instância de input de botões.<br />
 **mouse**: -1 para não usar o mouse.<br />
 ## InputTag
 ```csharp
-public InputTag(Claw.Input.Keys key, Claw.Input.Buttons? button, Claw.Input.MouseButtons? mouse, float bufferTime) { }
+public InputTag(Claw.Input.Keys key, Buttons? button, MouseButtons? mouse, float bufferTime) { }
 ```
 Cria uma instância de input de botões.<br />
 **mouse**: -1 para não usar o mouse.<br />
@@ -22,7 +22,7 @@ public InputTag(Claw.Input.MouseButtons mouse, float bufferTime) { }
 Cria uma instância de input de botões.<br />
 ## MouseButton
 ```csharp
-public Claw.Input.MouseButtons? MouseButton;
+public MouseButtons? MouseButton;
 ```
 ## IsDown
 ```csharp
@@ -50,11 +50,11 @@ public Claw.Input.Keys AltKey;
 ```
 ## Button
 ```csharp
-public Claw.Input.Buttons? Button;
+public Buttons? Button;
 ```
 ## AltButton
 ```csharp
-public Claw.Input.Buttons? AltButton;
+public Buttons? AltButton;
 ```
 ## Update
 ```csharp

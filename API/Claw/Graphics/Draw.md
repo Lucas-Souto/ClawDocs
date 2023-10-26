@@ -10,21 +10,21 @@ public static bool IgnoreCamera;
 Diz se o [Draw](/API/Claw/Graphics/Draw.md#Draw) deverá ignorar a câmera (falso por padrão).<br />
 ## Sprite
 ```csharp
-public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Claw.Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, Claw.Vector2 scale, Claw.Graphics.Flip flip) { }
+public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, Claw.Vector2 scale, Claw.Graphics.Flip flip) { }
 ```
 Desenha uma sprite.<br />
 **rotation**: Graus.<br />
 **origin**: De 0 a 1.<br />
 ## Sprite
 ```csharp
-public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Claw.Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, float scale, Claw.Graphics.Flip flip) { }
+public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, float scale, Claw.Graphics.Flip flip) { }
 ```
 Desenha uma sprite.<br />
 **rotation**: Graus.<br />
 **origin**: De 0 a 1.<br />
 ## Sprite
 ```csharp
-public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Claw.Rectangle? sourceRectangle, Claw.Color color) { }
+public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Rectangle? sourceRectangle, Claw.Color color) { }
 ```
 Desenha uma sprite.<br />
 ## Sprite
@@ -34,21 +34,21 @@ public static void Sprite(Claw.Graphics.Sprite sprite, Claw.Vector2 position, Cl
 Desenha uma sprite.<br />
 ## Sprite
 ```csharp
-public static void Sprite(Claw.Graphics.Texture texture, Claw.Vector2 position, Claw.Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, Claw.Vector2 scale, Claw.Graphics.Flip flip) { }
+public static void Sprite(Claw.Graphics.Texture texture, Claw.Vector2 position, Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, Claw.Vector2 scale, Claw.Graphics.Flip flip) { }
 ```
 Desenha uma sprite.<br />
 **rotation**: Graus.<br />
 **origin**: De 0 a 1.<br />
 ## Sprite
 ```csharp
-public static void Sprite(Claw.Graphics.Texture texture, Claw.Vector2 position, Claw.Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, float scale, Claw.Graphics.Flip flip) { }
+public static void Sprite(Claw.Graphics.Texture texture, Claw.Vector2 position, Rectangle? sourceRectangle, Claw.Color color, float rotation, Claw.Vector2 origin, float scale, Claw.Graphics.Flip flip) { }
 ```
 Desenha uma sprite.<br />
 **rotation**: Graus.<br />
 **origin**: De 0 a 1.<br />
 ## Sprite
 ```csharp
-public static void Sprite(Claw.Graphics.Texture texture, Claw.Vector2 position, Claw.Rectangle? sourceRectangle, Claw.Color color) { }
+public static void Sprite(Claw.Graphics.Texture texture, Claw.Vector2 position, Rectangle? sourceRectangle, Claw.Color color) { }
 ```
 Desenha uma sprite.<br />
 ## Sprite
@@ -177,7 +177,7 @@ public static void DebugCollider(float lineWidth, Claw.Polygon polygon, Claw.Col
 Desenha um colisor e um quadrado com a área que ele ocupa.<br />
 ## ForceBlendMode
 ```csharp
-public static void ForceBlendMode(Claw.Graphics.BlendMode? blendMode) { }
+public static void ForceBlendMode(BlendMode? blendMode) { }
 ```
 Se for diferente de nulo, o [Draw](/API/Claw/Graphics/Draw.md#Draw) forçará todas as texturas a terem esse [BlendMode](/API/Claw/Graphics/BlendMode.md#BlendMode) .<br />
 ## GetCamera

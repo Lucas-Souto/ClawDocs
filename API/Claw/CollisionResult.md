@@ -5,7 +5,7 @@ public struct CollisionResult
 Dados do resultado de uma colisão.<br />
 ## CollisionResult
 ```csharp
-public CollisionResult(bool intersect, Claw.Vector2? collisionPoint, Claw.GameObject gameObject, Claw.Polygon polygon) { }
+public CollisionResult(bool intersect, Vector2? collisionPoint, Claw.GameObject gameObject, Claw.Polygon polygon) { }
 ```
 ## Intersect
 ```csharp
@@ -13,7 +13,7 @@ public bool Intersect { get; private set; }
 ```
 ## CollisionPoint
 ```csharp
-public Claw.Vector2? CollisionPoint { get; private set; } 
+public Vector2? CollisionPoint { get; private set; } 
 ```
 ## GameObject
 ```csharp
@@ -77,7 +77,7 @@ public static bool implicit operator(CollisionResult a) { }
 ```
 ## implicit operator
 ```csharp
-public static Claw.Vector2? implicit operator(CollisionResult a) { }
+public static Vector2? implicit operator(CollisionResult a) { }
 ```
 ## implicit operator
 ```csharp

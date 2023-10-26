@@ -10,7 +10,7 @@ public Color(uint packedValue) { }
 **packedValue**: ABGR - 32 bits.<br />
 ## Color
 ```csharp
-public Color(string hex, Claw.Color+HexFormat format) { }
+public Color(string hex, HexFormat format) { }
 ```
 ## Color
 ```csharp
@@ -139,7 +139,7 @@ public void ToHSV(out float hue, out float saturation, out float value, out floa
 ```
 ## ToHex
 ```csharp
-public string ToHex(Claw.Color+HexFormat format) { }
+public string ToHex(HexFormat format) { }
 ```
 ## Lerp
 ```csharp

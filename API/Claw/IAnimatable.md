@@ -13,5 +13,5 @@ public abstract Claw.Graphics.Sprite Sprite { get; set; }
 ```
 ## SpriteArea
 ```csharp
-public abstract Claw.Rectangle? SpriteArea { get; set; } 
+public abstract Rectangle? SpriteArea { get; set; } 
 ```

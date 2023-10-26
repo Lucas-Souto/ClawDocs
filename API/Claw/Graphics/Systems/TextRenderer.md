@@ -1,6 +1,6 @@
 # TextRenderer
 ```csharp
-public sealed class TextRenderer : Claw.DrawableGameComponent
+public sealed class TextRenderer : DrawableGameComponent
 ```
 Realiza a renderização de textos com diferentes efeitos para cada bloco.<br />
 ## TextRenderer

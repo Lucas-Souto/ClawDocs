@@ -64,7 +64,7 @@ Retorna um vetor que respeite os limites mínimo e máximo.<br />
 public static float GetAngle(Vector2 position, Vector2 direction) { }
 ```
 Retorna o ângulo entre duas posições.<br />
-**Retorna: **Graus.<br />
+**Retorna**: Graus.<br />
 ## Distance
 ```csharp
 public static float Distance(Vector2 a, Vector2 b) { }
