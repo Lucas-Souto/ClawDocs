@@ -1,6 +1,6 @@
 # DrawableGameComponent
 ```csharp
-public class DrawableGameComponent : GameComponent
+public class DrawableGameComponent : Claw.GameComponent
 ```
 Classe pronta de um [IGameComponent](/API/Claw/IGameComponent.md#IGameComponent) do tipo [IUpdateable](/API/Claw/IUpdateable.md#IUpdateable) e [IDrawable](/API/Claw/IDrawable.md#IDrawable) .<br />
 ## DrawableGameComponent

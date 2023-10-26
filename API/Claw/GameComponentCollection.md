@@ -1,6 +1,6 @@
 # GameComponentCollection
 ```csharp
-public sealed class GameComponentCollection : System.Collections.ObjectModel.Collection<IGameComponent>
+public sealed class GameComponentCollection : System.Collections.ObjectModel.Collection<Claw.IGameComponent>
 ```
 Uma coleção de instâncias de [IGameComponent](/API/Claw/IGameComponent.md#IGameComponent) .<br />
 ## GameObjects

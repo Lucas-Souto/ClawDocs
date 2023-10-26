@@ -87,7 +87,7 @@ public bool CheckCollision(Claw.Vector2 position, int[] filterTiles, out int til
 ```
 ## Raycast
 ```csharp
-public bool Raycast(Claw.Line ray, float maxDistance, out int tile, out Vector2? hitPoint, out Claw.Vector2 tileIndex) { }
+public bool Raycast(Claw.Line ray, float maxDistance, out int tile, out Claw.Vector2? hitPoint, out Claw.Vector2 tileIndex) { }
 ```
 ## Pathfind
 ```csharp

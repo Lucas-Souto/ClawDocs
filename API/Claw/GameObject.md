@@ -110,7 +110,7 @@ public virtual Claw.Graphics.Sprite Sprite { get; set; }
 ```
 ## SpriteArea
 ```csharp
-public virtual Rectangle? SpriteArea { get; set; } 
+public virtual Claw.Rectangle? SpriteArea { get; set; } 
 ```
 ## Animator
 ```csharp

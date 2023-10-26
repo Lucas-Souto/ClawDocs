@@ -1,6 +1,6 @@
 # SaveIgnoreAttribute
 ```csharp
-public class SaveIgnoreAttribute : Attribute
+public class SaveIgnoreAttribute : System.Attribute
 ```
 Indica que a propriedade será ignorada do save.<br />
 ## SaveIgnoreAttribute

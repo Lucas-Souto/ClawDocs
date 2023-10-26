@@ -1,6 +1,6 @@
 # HUDText
 ```csharp
-public sealed class HUDText : HUDElement
+public sealed class HUDText : Claw.Graphics.Systems.HUDElement
 ```
 Representa um texto na HUD do jogo.<br />
 ## HUDText

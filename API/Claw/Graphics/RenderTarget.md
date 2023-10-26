@@ -1,6 +1,6 @@
 # RenderTarget
 ```csharp
-public sealed class RenderTarget : Texture
+public sealed class RenderTarget : Claw.Graphics.Texture
 ```
 Representa um alvo de renderização para o [Renderer](/API/Claw/Graphics/Renderer.md#Renderer) .<br />
 ## RenderTarget

@@ -1,6 +1,6 @@
 # SavePropertyAttribute
 ```csharp
-public class SavePropertyAttribute : Attribute
+public class SavePropertyAttribute : System.Attribute
 ```
 Indica que a propriedade será registrada no save, mesmo que privada.<br />
 ## SavePropertyAttribute

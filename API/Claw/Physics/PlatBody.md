@@ -1,6 +1,6 @@
 # PlatBody
 ```csharp
-public class PlatBody : GameObject
+public class PlatBody : Claw.GameObject
 ```
 Uma classe com física básica de plataforma.<br />
 ## PlatBody
