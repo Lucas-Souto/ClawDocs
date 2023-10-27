@@ -43,7 +43,7 @@ Um atlas não pode ultrapassar o tamanho de 2048x2048 (nem todo o espaço será 
 Se baseiam num arquivo JSON **.csf** e servem para compilar fontes instaladas na sua máquina (ao invés de baseadas numa imagem). <br />
 A estrutura do arquivo é:
 
-```json
+```jsonc
 {
     "FontName": "Arial", // Nome da fonte
     "Size": 12, // Tamanho da fonte
@@ -62,5 +62,6 @@ Se baseiam em arquivos de áudio **.wav** (PCM). <br />
 Para garantir que a compilação seja bem sucedida, os arquivos precisam ser Mono/Stereo e terem **até** 48kHz (áudios com menos que isso serão re-sampleados).
 
 ## Map
+Os objetos devem ter o tipo como o namespace (sem o prefixo), do que você quer instanciar.<br />
 Os assets do tipo `Map` são baseados nas exportações JSON do Tiled. Para que isso funcione, você deve marcar as seguintes opções de importação: <br />
 ![TiledPreferences](/Imagens/TiledExport.png)
