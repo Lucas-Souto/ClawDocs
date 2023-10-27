@@ -81,14 +81,18 @@ Limpa a layer.<br />
 ```csharp
 public bool CheckCollision(Claw.Vector2 position, out int tile) { }
 ```
+Checa se um ponto está colidindo com um tile.<br />
 ## CheckCollision
 ```csharp
 public bool CheckCollision(Claw.Vector2 position, int[] filterTiles, out int tile) { }
 ```
+Checa se um ponto está colidindo com um tile.<br />
 ## Raycast
 ```csharp
 public bool Raycast(Claw.Line ray, float maxDistance, out int tile, out Claw.Vector2? hitPoint, out Claw.Vector2 tileIndex) { }
 ```
+Lança um raio e retorna o tile com que esse raio colidiu e o ponto da colisão.<br />
+**maxDistance**: Distância em tiles.<br />
 ## Pathfind
 ```csharp
 public Claw.Vector2[] Pathfind(Claw.Vector2 start, Claw.Vector2 end, bool diagonalMovement) { }
