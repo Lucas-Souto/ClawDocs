@@ -2,7 +2,7 @@
 ```csharp
 public static class SceneManager
 ```
-Administra a cena.<br />
+Realiza o manuseio dos [GameObject](/API/Claw/GameObject.md#GameObject) s da cena.<br />
 ## InstanceNearest
 ```csharp
 public static Claw.GameObject InstanceNearest(string tag, Claw.Vector2 position, bool filterEnabled) { }
@@ -52,7 +52,7 @@ Encontra objetos de um tipo.<br />
 ```csharp
 public static void ClearScene(bool runDestroy, bool deleteAll) { }
 ```
-Destrói todos os objetos na cena.<br />
+Destrói os objetos da cena.<br />
 ## Destroy
 ```csharp
 public static void Destroy(Claw.GameObject gameObject, bool runDestroy) { }
