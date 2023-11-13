@@ -7,6 +7,13 @@ Representa um alvo de renderização para o [Renderer](/API/Claw/Graphics/Render
 ```csharp
 public RenderTarget(int width, int height) { }
 ```
+## GetData
+```csharp
+public uint[] GetData() { }
+```
+Obtém os pixels desta textura.<br />
+Aviso: Função lenta e não recomendada de se usar dentro do Draw do seu jogo.<br />
+<br />
 ## SetData
 ```csharp
 public virtual void SetData(uint[] pixels) { }
