@@ -41,7 +41,7 @@ Retorna as dimensões que a [Não encontrado!] teria com este [SpriteFont](/API/
 ```csharp
 public Claw.Vector2 MeasureChar(char character) { }
 ```
-Retorna as dimensões que o tamanho da área de um [Glyph](/API/Claw/Graphics/SpriteFont.md#Glyph) .<br />
+Retorna as dimensões que o tamanho da área de um [SpriteFont.Glyph](/API/Claw/Graphics/SpriteFont.md#Glyph) .<br />
 ## ToString
 ```csharp
 public virtual string ToString() { }

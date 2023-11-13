@@ -20,5 +20,5 @@ public virtual void SetData(uint[] pixels) { }
 ```
 Altera os pixels desta textura.<br />
 Aviso: Uso não recomendado (cada pixel será atualizado manualmente, num laço de repetição).<br />
-Recomendado: Use o método [Renderer](/API/Claw/Graphics/Renderer.md#Renderer) no lugar disso.<br />
+Recomendado: Use o método [Renderer.SetRenderTarget](/API/Claw/Graphics/Renderer.md#SetRenderTarget) no lugar disso.<br />
 <br />
