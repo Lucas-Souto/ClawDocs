@@ -52,3 +52,7 @@ Retorna o estágio do gradiente, se [ParticleValue<T>.IsGradient](/API/Claw/Part
 public void ResetValue() { }
 ```
 Reseta o valor atual do gradiente.<br />
+## implicit operator
+```csharp
+public static ParticleValue<T> implicit operator(T fixedValue) { }
+```
