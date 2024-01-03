@@ -24,9 +24,13 @@ public static int ControllersCount { get; }
 Indica o número de controles conectados.<br />
 ## MouseScroll
 ```csharp
-public static int MouseScroll { get; internal set; } 
+public static int MouseScroll { get; private set; } 
 ```
 Guarda o scroll do mouse (0, 1 ou -1).<br />
+## MouseMotion
+```csharp
+public static Claw.Vector2 MouseMotion { get; private set; } 
+```
 ## MousePosition
 ```csharp
 public static Claw.Vector2 MousePosition { get; private set; } 

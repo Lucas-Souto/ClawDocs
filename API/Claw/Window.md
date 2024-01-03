@@ -24,6 +24,11 @@ public bool FullScreen { get; set; }
 ```csharp
 public bool CanUserResize { get; set; } 
 ```
+## RelativeMouseMode
+```csharp
+public bool RelativeMouseMode { get; set; } 
+```
+Se verdadeiro, o cursor ficará escondido e limitado as bordas da janela.<br />
 ## IsActive
 ```csharp
 public bool IsActive { get; } 
@@ -64,8 +69,18 @@ public virtual void Dispose() { }
 public void Centralize() { }
 ```
 Centraliza a janela.<br />
+## Maximize
+```csharp
+public void Maximize() { }
+```
+Maximiza a janela.<br />
 ## SetMousePosition
 ```csharp
 public void SetMousePosition(Claw.Vector2 position) { }
 ```
 Altera a posição do mouse, relativo a janela.<br />
+## SetCursor
+```csharp
+public void SetCursor(Claw.Cursor cursor) { }
+```
+Altera o cursor atual.<br />
