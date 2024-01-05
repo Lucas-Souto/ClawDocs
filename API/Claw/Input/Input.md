@@ -80,6 +80,11 @@ Checa se um botão do mouse está solto.<br />
 public static int DownMouseButtons() { }
 ```
 Retorna o número de botões do mouse pressionados.<br />
+## GamePadExists
+```csharp
+public static bool GamePadExists(int index) { }
+```
+Checa se existe um gamepad com determinado index.<br />
 ## GetControllerType
 ```csharp
 public static Claw.Input.ControllerTypes GetControllerType(int index) { }
